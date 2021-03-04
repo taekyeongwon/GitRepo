@@ -10,10 +10,10 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:spinnerMode="dropdown"
-        android:layout_marginRight="5dp"
-        android:popupBackground="@android:color/transparent"
+        android:popupBackground="@drawable/white_rounded_square"
         android:background="@null"
-        android:dropDownWidth="300dp"
+        android:popupElevation="0dp"
+        style="@style/spinner_style"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>

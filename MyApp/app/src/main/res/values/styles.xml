@@ -33,4 +33,10 @@
         <item name="windowMinWidthMajor">0%</item>
         <item name="windowMinWidthMinor">0%</item>
     </style>
+
+    <style name="spinner_style" parent="Widget.AppCompat.Spinner">
+        <item name="android:dropDownVerticalOffset">10dip</item>
+        <item name="overlapAnchor">false</item>
+        <!--Other customizations-->
+    </style>
 </resources>
